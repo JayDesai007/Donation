@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:500,600");
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
 body {
   line-height: 25px;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #777777; }
+
 h1,
 h2,
 h3,
@@ -452,9 +455,142 @@ button:focus {
       .features_causes .card:hover .donation .primary_btn {
         background: #fdbb00;
         color: #000000;
-        border: 1px solid #fdbb00; 
+        border: 1px solid #fdbb00; }
 
 /* End Our Major Cause Area css
+============================================================================================ */
+/* Start recent Events css
+=========================================================================================== */
+.event_area {
+  padding-bottom: 70px; }
+  @media (max-width: 991px) {
+    .event_area {
+      padding-bottom: 10px; } }
+  .event_area .single_event {
+    margin-bottom: 60px; }
+    .event_area .single_event figure {
+      overflow: hidden;
+      margin: 0;
+      position: relative; }
+      .event_area .single_event figure img {
+        transition: all 300ms linear 0s; }
+    @media (max-width: 1024px) {
+      .event_area .single_event .content_wrapper {
+        margin-top: 0; } }
+    @media (max-width: 767px) {
+      .event_area .single_event .content_wrapper {
+        margin-top: 30px;
+        text-align: center; } }
+    .event_area .single_event .content_wrapper .title {
+      font-size: 20px;
+      margin-bottom: 15px; }
+      @media (max-width: 1024px) {
+        .event_area .single_event .content_wrapper .title {
+          margin-bottom: 10px; } }
+      .event_area .single_event .content_wrapper .title a {
+        color: #222222; }
+    @media (max-width: 1199px) and (min-width: 992px) {
+      .event_area .single_event .content_wrapper .count_time {
+        display: none !important; } }
+    @media (max-width: 767px) {
+      .event_area .single_event .content_wrapper .count_time {
+        display: none !important; } }
+    .event_area .single_event .content_wrapper .count_time h4 {
+      font-size: 20px;
+      margin-bottom: 0px; }
+    .event_area .single_event .content_wrapper .primary_btn {
+      line-height: 38px; }
+    .event_area .single_event:hover .title a {
+      color: #60bc0f; }
+    .event_area .single_event:hover img {
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      -ms-transform: scale(1.2); }
+    .event_area .single_event:hover .img-overlay {
+      background: initial; }
+    .event_area .single_event:hover .primary_btn {
+      background: #fdbb00;
+      border: 1px solid #fdbb00;
+      color: #222222; }
+
+@media (max-width: 991px) {
+  .event-details-area .condition-right h2 {
+    margin-top: 40px; } }
+.event-details-area .condition-right ul {
+  padding-left: 0px;
+  margin-top: 30px; }
+.event-details-area .condition-right li {
+  list-style: none;
+  margin-bottom: 5px; }
+  .event-details-area .condition-right li::before {
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-right: 20px; }
+  .event-details-area .condition-right li:nth-child(1)::before {
+    content: "\f073"; }
+  .event-details-area .condition-right li:nth-child(2)::before {
+    content: "\f015"; }
+  .event-details-area .condition-right li:nth-child(3)::before {
+    content: "\f124"; }
+
+/* recent Events css End
+=========================================================================================== */
+/* Team Area css
+============================================================================================ */
+.team_area {
+  background: #f9fafc; }
+
+.team_inner {
+  margin-bottom: -50px; }
+
+.team_item {
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px; }
+  .team_item .team_img {
+    position: relative;
+    overflow: hidden; }
+  .team_item .team_name {
+    text-align: center;
+    padding: 20px; }
+    .team_item .team_name h4 {
+      margin-bottom: 5px;
+      font-weight: 500;
+      font-size: 20px;
+      transition: all 300ms linear 0s; }
+    .team_item .team_name p {
+      margin-bottom: 0px; }
+  .team_item .social {
+    margin-top: 30px; }
+    .team_item .social a {
+      font-size: 14px;
+      color: #acadb0;
+      margin-right: 20px;
+      text-align: center;
+      height: 30px;
+      width: 30px;
+      background: transparent;
+      display: inline-block;
+      text-align: center;
+      line-height: 30px;
+      border-radius: 20px;
+      border: 1px solid #777777;
+      transition: all 300ms linear 0s; }
+      .team_item .social a:last-child {
+        margin-right: 0px; }
+      .team_item .social a:hover, .team_item .social a.active {
+        background: #60bc0f;
+        color: #ffffff;
+        border: 1px solid #60bc0f; }
+  .team_item:hover .team_img:before {
+    opacity: 1; }
+  .team_item:hover .team_img .hover {
+    bottom: 0px; }
+  .team_item:hover .team_name h4 {
+    color: #60bc0f; }
+
+/* End Team Area css
 ============================================================================================ */
 /* Start CTA Area css
 ============================================================================================ */
@@ -475,4 +611,5 @@ button:focus {
     margin-bottom: 40px; }
   .cta-area .primary-btn {
     margin-top: 15px; }
+
 
