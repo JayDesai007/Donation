@@ -247,7 +247,7 @@ button:focus {
   z-index: 1;
   min-height: 900px;
   display: flex;
-  background: linear-gradient(rgba(3, 1, 10, 0.5), rgba(3, 1, 10, 0.5)), url(../img/home-banner.jpg) no-repeat scroll center center;
+  background: linear-gradient(rgba(3, 1, 10, 0.5), rgba(3, 1, 10, 0.5)), url(main.jpg) no-repeat scroll center center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     width: 100%;
@@ -297,7 +297,7 @@ button:focus {
     background: transparent;
     z-index: 1; }
     .banner_area .banner_inner .overlay {
-      background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/banner/banner.jpg) no-repeat scroll center center;
+      background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(main.jpg) no-repeat scroll center center;
       background-size: cover;
       position: absolute;
       left: 0;
@@ -452,7 +452,7 @@ button:focus {
       .features_causes .card:hover .donation .primary_btn {
         background: #fdbb00;
         color: #000000;
-        border: 1px solid #fdbb00; }
+        border: 1px solid #fdbb00; 
 
 /* End Our Major Cause Area css
 ============================================================================================ */
